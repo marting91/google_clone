@@ -1,3 +1,8 @@
+*, *:after, *:before {
+	/* box-sizing: border-box; */
+}
+
+
 body {
 	margin: 0;
 	padding: 0;
@@ -106,4 +111,34 @@ main .main-input .micro-icon {
 	background-size: contain;
 	width: 18px;
 	height: 18px;
+}
+
+main .main-buttons {
+	width: 530px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+main .main-buttons div {
+	margin: 0 10px;
+}
+
+main .main-buttons button {
+	height: 36px;
+	background-color: #f8f9fa;
+	border: none;
+	font-size: 14px;
+	color: #3c4043;
+	border-radius: 5px;
+	padding: 0 15px;
+	border: 1px solid #f8f9fa;
+	cursor: pointer;
+}
+
+main .main-buttons button:hover {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	border: 1px solid #dadce0;
+	background-color: #f8f9fa;
+	color: #202124;
 }
