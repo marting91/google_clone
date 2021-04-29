@@ -1,12 +1,16 @@
 *, *:after, *:before {
-	/* box-sizing: border-box; */
+	box-sizing: border-box;
 }
 
+html {
+	font-size: 62.5%;
+
+}
 
 body {
 	margin: 0;
 	padding: 0;
-	font-size: 13px;
+	font-size: 1.3rem;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,7 +20,7 @@ a {
 
 header {
 	width: 100%;
-	height: 60px;
+	height: 6rem;
 }
 
 header nav {
@@ -25,7 +29,7 @@ header nav {
 }
 
 header nav .nav-right-section {
-	width: 250px;
+	width: 25rem;
 	height: auto;
 	display: flex;
 	list-style: none;
@@ -34,7 +38,7 @@ header nav .nav-right-section {
 }
 
 nav .nav-right-section a {
-	margin-right: 10px;
+	margin-right: 1rem;
 	color: #000;
 }
 
@@ -43,40 +47,40 @@ nav .nav-right-section .menu-icon {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
-	width: 25px;
-	height: 25px;
+	width: 2.5rem;
+	height: 2.5rem;
 	cursor: pointer;
 }
 
 nav .nav-right-section img {
 	border-radius: 50%;
-	margin-left: 10px;
+	margin-left: 1rem;
 }
 
 main {
-	margin-top: 150px;
+	margin-top: 15rem;
 	text-align: center;
 }
 
 main .main-logo {
-	width: 530px;
+	width: 53rem;
 	margin: 0 auto;
-	margin-bottom: 35px;
+	margin-bottom: 3.5rem;
 }
 
 main .main-logo img {
-	width: 400px;
+	width: 40rem;
 }
 
 main .main-input {
-	width: 530px;
+	width: 53rem;
 	margin: 0 auto;
-	margin-bottom: 35px;
+	margin-bottom: 3.5rem;
 }
 
 main .main-input-container {
-	width: 525px;
-	border-radius: 100px;
+	width: 52.5rem;
+	border-radius: 10rem;
 	border: 1px solid #dfe1e5;
 	display: flex;
 	justify-content: center;
@@ -89,8 +93,8 @@ main .main-input-container:hover {
 }
 
 main .main-input input {
-	width: 450px;
-	height: 40px;
+	width: 45rem;
+	height: 4rem;
 	border: none;
 	outline: none;
 }
@@ -109,12 +113,12 @@ main .main-input .micro-icon {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
-	width: 18px;
-	height: 18px;
+	width: 1.8rem;
+	height: 1.8rem;
 }
 
 main .main-buttons {
-	width: 530px;
+	width: 53rem;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -125,13 +129,13 @@ main .main-buttons div {
 }
 
 main .main-buttons button {
-	height: 36px;
+	height: 3.6rem;
 	background-color: #f8f9fa;
 	border: none;
-	font-size: 14px;
+	font-size: 1.4rem;
 	color: #3c4043;
-	border-radius: 5px;
-	padding: 0 15px;
+	border-radius: .5rem;
+	padding: 0 1.5rem;
 	border: 1px solid #f8f9fa;
 	cursor: pointer;
 }
@@ -141,4 +145,33 @@ main .main-buttons button:hover {
 	border: 1px solid #dadce0;
 	background-color: #f8f9fa;
 	color: #202124;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 0 3rem;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+footer ul li a {
+	display: block;
+	color: #70757a;
+	padding: 1.5rem;
+}
+
+footer ul li a:hover {
+	text-decoration: underline;
 }
