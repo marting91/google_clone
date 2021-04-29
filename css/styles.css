@@ -53,6 +53,7 @@ nav .nav-right-section .menu-icon {
 }
 
 nav .nav-right-section img {
+	max-width: 2.5rem;
 	border-radius: 50%;
 	margin-left: 1rem;
 }
